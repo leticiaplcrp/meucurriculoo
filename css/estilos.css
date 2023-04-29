@@ -1,0 +1,60 @@
+body {
+   /*Comece com a fonte desejada e sempre termine com uma família genérica,
+    para permitir que o navegador escolha uma fonte semelhante na família genérica, 
+    se nenhuma outra fonte estiver disponível.*/
+   font-family: Arial, Helvetica, sans-serif;/*de que familia a fonte é*/
+}
+a:link{
+   color: #8922bd;
+   font-size: 18px;
+   padding: 5px 3px;/*baixo e lados*/
+   text-decoration: none;/*tirara linha do link */
+   font-weight: bold;/*fonte em negrito*/
+   
+}
+
+a:hover{
+   background-color: #a560c8;
+   color: #ccc;
+   text-decoration: none;/*tirar a linha do link */
+   font-weight: normal;/*fonte normal*/
+}
+h1{
+   font-size: 30px;
+   text-align: center;
+   margin: 30px;
+   color: #8922bd;
+}
+h2{
+   color: #8922bd;
+   font-size: 25px;
+   margin-left: 30px;
+   margin-bottom: 10px;
+}
+b{
+   color: #8922bd;
+   text-align: center;
+
+}
+hr{
+   background-color: #8922bd ;
+   height: 3px;
+}
+img{
+   display: block;/*imagem bloqueada no lugar*/
+   margin:auto;/*margem automatica de acordo com o tamanho total*/
+   width: 50%;
+}
+p{
+   text-align: center;
+   margin: 30px 20px;/*baixo e lados*/
+}
+
+/*formatação*/
+table{
+  table-layout: auto;/*A largura da coluna é definida pelo conteúdo inquebrável mais largo nas células*/
+  width:30%;
+  margin:  auto;
+  border-collapse: collapse;/*tira a linhda dupla da tabela e deica só a simples*/
+  border-color:#8922bd;
+}
